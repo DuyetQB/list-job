@@ -162,7 +162,7 @@ body {
   text-align: end;
 }
 
-.curv-wrapper__products {
+.curv-wrapper__listjob {
   margin-top: 16px;
   padding: 16px 18px 16px 16px;
   border-radius: 4px;
@@ -170,73 +170,73 @@ body {
 }
 
 @media (max-width: 600px) {
-  .curv-wrapper__products--image {
+  .curv-wrapper__listjob--image {
     display: none;
   }
 }
 
-.curv-wrapper__products--image-img {
+.curv-wrapper__listjob--image-img {
   width: 64px;
   height: 64px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.curv-wrapper__products--text p {
+.curv-wrapper__listjob--text p {
   font-size: 14px;
   line-height: 24px;
 }
 
-.curv-wrapper__products--text-detail {
+.curv-wrapper__listjob--text-detail {
   padding-left: 16px;
 }
 
 @media (max-width: 600px) {
-  .curv-wrapper__products--text-detail {
+  .curv-wrapper__listjob--text-detail {
     padding-left: 0px;
   }
 }
 
-.curv-wrapper__products--text-detail h2 {
+.curv-wrapper__listjob--text-detail h2 {
   font-size: 20px;
   line-height: 28px;
 }
 
-.curv-wrapper__products--text-detail p {
+.curv-wrapper__listjob--text-detail p {
   margin-top: 8px;
 }
 
-.curv-wrapper__products--text-detail p.text--name {
+.curv-wrapper__listjob--text-detail p.text--name {
   color: #0976BB;
 }
 
-.curv-wrapper__products--text-icon {
+.curv-wrapper__listjob--text-icon {
   margin-left: 33.5px;
   margin-right: 15.33px;
   margin-top: 8px;
 }
 
 @media (max-width: 600px) {
-  .curv-wrapper__products--text-icon {
+  .curv-wrapper__listjob--text-icon {
     margin-left: 0px;
   }
 }
 
-.curv-wrapper__products--text-cheched {
+.curv-wrapper__listjob--text-cheched {
   padding-top: 12px;
 }
 
-.curv-wrapper__products--text-cheched .checked--item .flex--item {
+.curv-wrapper__listjob--text-cheched .checked--item .flex--item {
   display: inline-block;
 }
 
 @media (max-width: 600px) {
-  .curv-wrapper__products--text-cheched .checked--item .flex--item {
+  .curv-wrapper__listjob--text-cheched .checked--item .flex--item {
     width: 100%;
   }
 }
 
-.curv-wrapper__products--text-cheched .checked--item span {
+.curv-wrapper__listjob--text-cheched .checked--item span {
   margin-left: 10px;
   margin-right: 26px;
   color: #B1B1B1;
@@ -244,7 +244,7 @@ body {
   line-height: 24px;
 }
 
-.curv-wrapper__products--text-cheched .checked--item2 {
+.curv-wrapper__listjob--text-cheched .checked--item2 {
   text-align: end;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -252,19 +252,19 @@ body {
 }
 
 @media (max-width: 600px) {
-  .curv-wrapper__products--text-cheched .checked--item2 {
+  .curv-wrapper__listjob--text-cheched .checked--item2 {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
 }
 
-.curv-wrapper__products--text-cheched .checked--item2 span {
+.curv-wrapper__listjob--text-cheched .checked--item2 span {
   margin-left: 10px;
   margin-right: 0px;
 }
 
-.curv-wrapper__products .text--introduce {
+.curv-wrapper__listjob .text--introduce {
   margin-top: 16px;
 }
 /*# sourceMappingURL=style.css.map */
