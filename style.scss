@@ -106,13 +106,25 @@ body {
         &--checkbox {
             list-style: none;
 
+            & .slide--range {
+                min-width: 100% !important;
+            }
+
+            & .con-vs-slider {
+                min-width: unset !important;
+            }
+
             & .checkbox--text {
                 font-size: 14px;
                 line-height: 24px;
             }
-            & .vs-slider-line-one{
+
+            & .vs-slider-line-one {
                 background: #17A9B5 !important;
+
             }
+
+
 
             &-list {
 
@@ -196,6 +208,7 @@ body {
                 width: 64px;
                 height: 64px;
                 object-fit: cover;
+                border-radius: 8px;
             }
         }
 
@@ -286,4 +299,12 @@ body {
 
     }
 
+}
+
+.con-vs-slider {
+    min-width: unset !important;
+}
+
+.vs-slider-primary {
+    min-width: unset !important;
 }
