@@ -58,6 +58,7 @@ body {
   border-radius: 4px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .curv-search__item2 {

@@ -61,31 +61,29 @@
                     <h3 class="checkbox--text">Job type</h3>
                     <ul class="curv-wrapper__item--checkbox-list">
                         <li>
-                          <vs-checkbox v-model="checkBox1">Full-time</vs-checkbox>
+                            <vs-checkbox v-model="checkBox1">Full-time</vs-checkbox>
                         </li>
                         <li>
-                          <vs-checkbox v-model="checkBox2">Part-time</vs-checkbox>
+                            <vs-checkbox v-model="checkBox2">Part-time</vs-checkbox>
                         </li>
                         <li>
-                          <vs-checkbox  v-model="checkBox3">Freelance</vs-checkbox>
+                            <vs-checkbox v-model="checkBox3">Freelance</vs-checkbox>
                         </li>
                         <li>
-                          <vs-checkbox  v-model="checkBox4">Remote</vs-checkbox>
+                            <vs-checkbox v-model="checkBox4">Remote</vs-checkbox>
                         </li>
-                      </ul>
+                    </ul>
                 </vs-col>
                 <vs-col class="curv-wrapper__item--checkbox">
                     <h3 class="text--salary checkbox--text">Salary Range</h3>
-                   
+
                     <vs-col vs-lg="11" vs-sm="9" vs-xs="12">
-                        <vs-slider step=10 v-model="value1"/>
-                        <vs-slider ticks step=25 v-model="value2" vs-model="colorx"/>
-                       
-                     
+                        <vs-slider step=10 v-model="value1" />
                        
                     </vs-col>
-                    
-                    <vs-col class="curv-wrapper__item--checkbox" vs-justify="space-between" vs-type="flex" vs-lg="7" vs-sm="9" vs-xs="12">
+
+                    <vs-col class="curv-wrapper__item--checkbox" vs-justify="space-between" vs-type="flex" vs-lg="7"
+                        vs-sm="9" vs-xs="12">
                         <span class="checkbox--price"> €100</span>
                         <span class="checkbox--price"> €2,000</span>
                     </vs-col>
@@ -93,17 +91,17 @@
                         <h3 class="text--salary checkbox--text">Experience Level</h3>
                         <ul class="curv-wrapper__item--checkbox-list">
                             <li>
-                              <vs-checkbox v-model="checkBox5">Senior</vs-checkbox>
+                                <vs-checkbox v-model="checkBox5">Senior</vs-checkbox>
                             </li>
                             <li>
-                              <vs-checkbox v-model="checkBox6">Junior</vs-checkbox>
+                                <vs-checkbox v-model="checkBox6">Junior</vs-checkbox>
                             </li>
-                            
-                            
-                          </ul>
+
+
+                        </ul>
                     </vs-col>
 
-                   
+
 
 
                 </vs-col>
@@ -168,19 +166,20 @@
                                 </vs-row>
                                 <vs-row vs-align="center" class="curv-wrapper__products--text-detail">
                                     <p class="text--name">Company Name That Can Be Long </p>
-                                    
-                                    <vs-col vs-type="flex" vs-lg="5" vs-sm="6" vs-xs="12">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="curv-wrapper__products--text-icon"
-                                        width="9.33" height="12" viewBox="0 0 16 18" fill="none">
-                                        <path
-                                            d="M11.2143 7C11.2143 8.65686 9.7752 10 8 10C6.2248 10 4.78571 8.65686 4.78571 7C4.78571 5.34315 6.2248 4 8 4C9.7752 4 11.2143 5.34315 11.2143 7Z"
-                                            fill="#585858" />
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M0.5 7C0.5 12.25 8 18 8 18C8 18 15.5 12.25 15.5 7C15.5 3.13 12.1464 0 8 0C3.85357 0 0.5 3.13 0.5 7ZM2.64286 7C2.64286 4.23457 5.03704 2 8 2C10.963 2 13.3571 4.23457 13.3571 7C13.3571 8.8607 11.9475 11.1296 10.1058 13.1861C9.3622 14.0165 8.61418 14.7402 8 15.2974C7.38582 14.7402 6.6378 14.0165 5.89418 13.1861C4.05253 11.1296 2.64286 8.8607 2.64286 7Z"
-                                            fill="#585858" />
-                                    </svg>
-                                    <p>State, City</p>
-                                </vs-col>
+
+                                    <vs-col vs-type="flex" vs-lg="5" vs-sm="6" vs-xs="12"  vs-align="center">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            class="curv-wrapper__products--text-icon" width="9.33" height="12"
+                                            viewBox="0 0 16 18" fill="none">
+                                            <path
+                                                d="M11.2143 7C11.2143 8.65686 9.7752 10 8 10C6.2248 10 4.78571 8.65686 4.78571 7C4.78571 5.34315 6.2248 4 8 4C9.7752 4 11.2143 5.34315 11.2143 7Z"
+                                                fill="#585858" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.5 7C0.5 12.25 8 18 8 18C8 18 15.5 12.25 15.5 7C15.5 3.13 12.1464 0 8 0C3.85357 0 0.5 3.13 0.5 7ZM2.64286 7C2.64286 4.23457 5.03704 2 8 2C10.963 2 13.3571 4.23457 13.3571 7C13.3571 8.8607 11.9475 11.1296 10.1058 13.1861C9.3622 14.0165 8.61418 14.7402 8 15.2974C7.38582 14.7402 6.6378 14.0165 5.89418 13.1861C4.05253 11.1296 2.64286 8.8607 2.64286 7Z"
+                                                fill="#585858" />
+                                        </svg>
+                                        <p>State, City</p>
+                                    </vs-col>
                                 </vs-row>
 
                                 <p class="text--introduce">
@@ -191,28 +190,28 @@
                                 <vs-row class="curv-wrapper__products--text-cheched">
                                     <vs-col vs-lg="8" vs-sm="6" vs-xs="12" class="checked--item">
                                         <div class="flex--item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Rent</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Flat type</span>
-                                    </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Rent</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Flat type</span>
+                                        </div>
 
-                                      <div class="flex--item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Vocational school in [City]</span>
-                                    </div>
+                                        <div class="flex--item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Vocational school in [City]</span>
+                                        </div>
                                     </vs-col>
                                     <vs-col vs-type="flex" vs-lg="4" vs-sm="6" vs-xs="12"
-                                        class="checked--item checked--item2" vs-align="center" >
+                                        class="checked--item checked--item2" vs-align="center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             viewBox="0 0 16 16" fill="none">
                                             <path d="M4.66667 7.9987H6V9.33203H4.66667V7.9987Z" fill="#B1B1B1" />
@@ -264,19 +263,20 @@
                                 </vs-row>
                                 <vs-row vs-align="center" class="curv-wrapper__products--text-detail">
                                     <p class="text--name">Company Name That Can Be Long </p>
-                                    
-                                    <vs-col vs-type="flex" vs-lg="5" vs-sm="6" vs-xs="12">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="curv-wrapper__products--text-icon"
-                                        width="9.33" height="12" viewBox="0 0 16 18" fill="none">
-                                        <path
-                                            d="M11.2143 7C11.2143 8.65686 9.7752 10 8 10C6.2248 10 4.78571 8.65686 4.78571 7C4.78571 5.34315 6.2248 4 8 4C9.7752 4 11.2143 5.34315 11.2143 7Z"
-                                            fill="#585858" />
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M0.5 7C0.5 12.25 8 18 8 18C8 18 15.5 12.25 15.5 7C15.5 3.13 12.1464 0 8 0C3.85357 0 0.5 3.13 0.5 7ZM2.64286 7C2.64286 4.23457 5.03704 2 8 2C10.963 2 13.3571 4.23457 13.3571 7C13.3571 8.8607 11.9475 11.1296 10.1058 13.1861C9.3622 14.0165 8.61418 14.7402 8 15.2974C7.38582 14.7402 6.6378 14.0165 5.89418 13.1861C4.05253 11.1296 2.64286 8.8607 2.64286 7Z"
-                                            fill="#585858" />
-                                    </svg>
-                                    <p>State, City</p>
-                                </vs-col>
+
+                                    <vs-col vs-type="flex" vs-lg="5" vs-sm="6" vs-xs="12"  vs-align="center">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            class="curv-wrapper__products--text-icon" width="9.33" height="12"
+                                            viewBox="0 0 16 18" fill="none">
+                                            <path
+                                                d="M11.2143 7C11.2143 8.65686 9.7752 10 8 10C6.2248 10 4.78571 8.65686 4.78571 7C4.78571 5.34315 6.2248 4 8 4C9.7752 4 11.2143 5.34315 11.2143 7Z"
+                                                fill="#585858" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.5 7C0.5 12.25 8 18 8 18C8 18 15.5 12.25 15.5 7C15.5 3.13 12.1464 0 8 0C3.85357 0 0.5 3.13 0.5 7ZM2.64286 7C2.64286 4.23457 5.03704 2 8 2C10.963 2 13.3571 4.23457 13.3571 7C13.3571 8.8607 11.9475 11.1296 10.1058 13.1861C9.3622 14.0165 8.61418 14.7402 8 15.2974C7.38582 14.7402 6.6378 14.0165 5.89418 13.1861C4.05253 11.1296 2.64286 8.8607 2.64286 7Z"
+                                                fill="#585858" />
+                                        </svg>
+                                        <p>State, City</p>
+                                    </vs-col>
                                 </vs-row>
 
                                 <p class="text--introduce">
@@ -287,28 +287,28 @@
                                 <vs-row class="curv-wrapper__products--text-cheched">
                                     <vs-col vs-lg="8" vs-sm="6" vs-xs="12" class="checked--item">
                                         <div class="flex--item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Rent</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Flat type</span>
-                                    </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Rent</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Flat type</span>
+                                        </div>
 
-                                      <div class="flex--item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Vocational school in [City]</span>
-                                    </div>
+                                        <div class="flex--item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Vocational school in [City]</span>
+                                        </div>
                                     </vs-col>
                                     <vs-col vs-type="flex" vs-lg="4" vs-sm="6" vs-xs="12"
-                                        class="checked--item checked--item2" vs-align="center" >
+                                        class="checked--item checked--item2" vs-align="center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             viewBox="0 0 16 16" fill="none">
                                             <path d="M4.66667 7.9987H6V9.33203H4.66667V7.9987Z" fill="#B1B1B1" />
@@ -360,19 +360,20 @@
                                 </vs-row>
                                 <vs-row vs-align="center" class="curv-wrapper__products--text-detail">
                                     <p class="text--name">Company Name That Can Be Long </p>
-                                    
-                                    <vs-col vs-type="flex" vs-lg="5" vs-sm="6" vs-xs="12">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="curv-wrapper__products--text-icon"
-                                        width="9.33" height="12" viewBox="0 0 16 18" fill="none">
-                                        <path
-                                            d="M11.2143 7C11.2143 8.65686 9.7752 10 8 10C6.2248 10 4.78571 8.65686 4.78571 7C4.78571 5.34315 6.2248 4 8 4C9.7752 4 11.2143 5.34315 11.2143 7Z"
-                                            fill="#585858" />
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M0.5 7C0.5 12.25 8 18 8 18C8 18 15.5 12.25 15.5 7C15.5 3.13 12.1464 0 8 0C3.85357 0 0.5 3.13 0.5 7ZM2.64286 7C2.64286 4.23457 5.03704 2 8 2C10.963 2 13.3571 4.23457 13.3571 7C13.3571 8.8607 11.9475 11.1296 10.1058 13.1861C9.3622 14.0165 8.61418 14.7402 8 15.2974C7.38582 14.7402 6.6378 14.0165 5.89418 13.1861C4.05253 11.1296 2.64286 8.8607 2.64286 7Z"
-                                            fill="#585858" />
-                                    </svg>
-                                    <p>State, City</p>
-                                </vs-col>
+
+                                    <vs-col vs-type="flex" vs-lg="5" vs-sm="6" vs-xs="12" vs-align="center">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            class="curv-wrapper__products--text-icon" width="9.33" height="12"
+                                            viewBox="0 0 16 18" fill="none">
+                                            <path
+                                                d="M11.2143 7C11.2143 8.65686 9.7752 10 8 10C6.2248 10 4.78571 8.65686 4.78571 7C4.78571 5.34315 6.2248 4 8 4C9.7752 4 11.2143 5.34315 11.2143 7Z"
+                                                fill="#585858" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.5 7C0.5 12.25 8 18 8 18C8 18 15.5 12.25 15.5 7C15.5 3.13 12.1464 0 8 0C3.85357 0 0.5 3.13 0.5 7ZM2.64286 7C2.64286 4.23457 5.03704 2 8 2C10.963 2 13.3571 4.23457 13.3571 7C13.3571 8.8607 11.9475 11.1296 10.1058 13.1861C9.3622 14.0165 8.61418 14.7402 8 15.2974C7.38582 14.7402 6.6378 14.0165 5.89418 13.1861C4.05253 11.1296 2.64286 8.8607 2.64286 7Z"
+                                                fill="#585858" />
+                                        </svg>
+                                        <p>State, City</p>
+                                    </vs-col>
                                 </vs-row>
 
                                 <p class="text--introduce">
@@ -383,28 +384,28 @@
                                 <vs-row class="curv-wrapper__products--text-cheched">
                                     <vs-col vs-lg="8" vs-sm="6" vs-xs="12" class="checked--item">
                                         <div class="flex--item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Rent</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Flat type</span>
-                                    </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Rent</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Flat type</span>
+                                        </div>
 
-                                      <div class="flex--item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Vocational school in [City]</span>
-                                    </div>
+                                        <div class="flex--item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Vocational school in [City]</span>
+                                        </div>
                                     </vs-col>
                                     <vs-col vs-type="flex" vs-lg="4" vs-sm="6" vs-xs="12"
-                                        class="checked--item checked--item2" vs-align="center" >
+                                        class="checked--item checked--item2" vs-align="center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             viewBox="0 0 16 16" fill="none">
                                             <path d="M4.66667 7.9987H6V9.33203H4.66667V7.9987Z" fill="#B1B1B1" />
@@ -456,19 +457,20 @@
                                 </vs-row>
                                 <vs-row vs-align="center" class="curv-wrapper__products--text-detail">
                                     <p class="text--name">Company Name That Can Be Long </p>
-                                    
-                                    <vs-col vs-type="flex" vs-lg="5" vs-sm="6" vs-xs="12">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="curv-wrapper__products--text-icon"
-                                        width="9.33" height="12" viewBox="0 0 16 18" fill="none">
-                                        <path
-                                            d="M11.2143 7C11.2143 8.65686 9.7752 10 8 10C6.2248 10 4.78571 8.65686 4.78571 7C4.78571 5.34315 6.2248 4 8 4C9.7752 4 11.2143 5.34315 11.2143 7Z"
-                                            fill="#585858" />
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M0.5 7C0.5 12.25 8 18 8 18C8 18 15.5 12.25 15.5 7C15.5 3.13 12.1464 0 8 0C3.85357 0 0.5 3.13 0.5 7ZM2.64286 7C2.64286 4.23457 5.03704 2 8 2C10.963 2 13.3571 4.23457 13.3571 7C13.3571 8.8607 11.9475 11.1296 10.1058 13.1861C9.3622 14.0165 8.61418 14.7402 8 15.2974C7.38582 14.7402 6.6378 14.0165 5.89418 13.1861C4.05253 11.1296 2.64286 8.8607 2.64286 7Z"
-                                            fill="#585858" />
-                                    </svg>
-                                    <p>State, City</p>
-                                </vs-col>
+
+                                    <vs-col vs-type="flex" vs-lg="5" vs-sm="6" vs-xs="12" vs-align="center">
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            class="curv-wrapper__products--text-icon" width="9.33" height="12"
+                                            viewBox="0 0 16 18" fill="none">
+                                            <path
+                                                d="M11.2143 7C11.2143 8.65686 9.7752 10 8 10C6.2248 10 4.78571 8.65686 4.78571 7C4.78571 5.34315 6.2248 4 8 4C9.7752 4 11.2143 5.34315 11.2143 7Z"
+                                                fill="#585858" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.5 7C0.5 12.25 8 18 8 18C8 18 15.5 12.25 15.5 7C15.5 3.13 12.1464 0 8 0C3.85357 0 0.5 3.13 0.5 7ZM2.64286 7C2.64286 4.23457 5.03704 2 8 2C10.963 2 13.3571 4.23457 13.3571 7C13.3571 8.8607 11.9475 11.1296 10.1058 13.1861C9.3622 14.0165 8.61418 14.7402 8 15.2974C7.38582 14.7402 6.6378 14.0165 5.89418 13.1861C4.05253 11.1296 2.64286 8.8607 2.64286 7Z"
+                                                fill="#585858" />
+                                        </svg>
+                                        <p>State, City</p>
+                                    </vs-col>
                                 </vs-row>
 
                                 <p class="text--introduce">
@@ -479,28 +481,28 @@
                                 <vs-row class="curv-wrapper__products--text-cheched">
                                     <vs-col vs-lg="8" vs-sm="6" vs-xs="12" class="checked--item">
                                         <div class="flex--item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Rent</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Flat type</span>
-                                    </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Rent</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Flat type</span>
+                                        </div>
 
-                                      <div class="flex--item">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            viewBox="0 0 16 16" fill="none">
-                                            <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
-                                        </svg>
-                                        <span>Vocational school in [City]</span>
-                                    </div>
+                                        <div class="flex--item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none">
+                                                <path d="M2 8L6 12L14 4" stroke="#B1B1B1" stroke-width="1.5" />
+                                            </svg>
+                                            <span>Vocational school in [City]</span>
+                                        </div>
                                     </vs-col>
                                     <vs-col vs-type="flex" vs-lg="4" vs-sm="6" vs-xs="12"
-                                        class="checked--item checked--item2" vs-align="center" >
+                                        class="checked--item checked--item2" vs-align="center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             viewBox="0 0 16 16" fill="none">
                                             <path d="M4.66667 7.9987H6V9.33203H4.66667V7.9987Z" fill="#B1B1B1" />
@@ -546,27 +548,27 @@
             el: '.curv-content'
         });
     </script>
-    
-        <script>
-            export default {
-              data(){
-                return {
-                  checkBox1:true,
-                  checkBox2:true,
-                  checkBox3:true,
-                  checkBox4:true,
-                  checkBox5:true,
-                  checkBox6:true,
-                  value1:60,
-                    value2:25,
-                    colorx:'#db7d12',
-                }
-              }
-            }
-            </script>
-            
 
-           
+    <script>
+        export default {
+            data() {
+                return {
+                    checkBox1: true,
+                    checkBox2: true,
+                    checkBox3: true,
+                    checkBox4: true,
+                    checkBox5: true,
+                    checkBox6: true,
+                    value1: 60,
+                  
+                   
+                }
+            }
+        }
+    </script>
+
+
+
 </body>
 
 </html>
