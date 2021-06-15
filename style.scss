@@ -221,10 +221,20 @@ body {
 
             &-detail {
                 padding-left: 16px;
+                & .text--title{
+                    text-decoration: none;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color:#353535;
+                    font-weight: 700;
+                }
 
                 @include mobile {
                     padding-left: 0px;
+
                 }
+
+                
 
                 & h2 {
                     font-size: 20px;
@@ -260,9 +270,15 @@ body {
                     & .flex--item {
                         display: inline-block;
 
+
+
                         @include mobile {
                             width: 100%;
                         }
+                    }
+
+                    & svg {
+                        vertical-align: middle;
                     }
 
                     & span {
@@ -302,9 +318,5 @@ body {
 }
 
 .con-vs-slider {
-    min-width: unset !important;
-}
-
-.vs-slider-primary {
     min-width: unset !important;
 }
