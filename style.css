@@ -27,6 +27,10 @@ body {
   top: 50%;
 }
 
+.curv-search__item {
+  width: 50%;
+}
+
 .curv-search__item .text--search {
   font-size: 14px;
 }
@@ -66,8 +70,35 @@ body {
   padding-right: 8px;
 }
 
+.curv-search__item2 .space--search {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .curv-wrapper {
   padding-top: 32px;
+}
+
+@media (max-width: 780px) {
+  .curv-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.curv-wrapper .left--side {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+.curv-wrapper .right--side {
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
 }
 
 .curv-wrapper__item--btn {
@@ -137,10 +168,25 @@ body {
 .curv-wrapper__item--checkbox .slide--range {
   padding-top: 20px;
   padding-bottom: 16px;
+  width: 90%;
 }
 
 .curv-wrapper__item--checkbox .checkbox--price {
   color: #17A9B5;
+}
+
+.curv-wrapper__item--checkbox.wrap--money {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.curv-wrapper__item--joblist--tab {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .curv-wrapper__filter {
@@ -189,6 +235,13 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px;
+}
+
+.curv-wrapper__listjob--text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .curv-wrapper__listjob--text p {
@@ -241,6 +294,9 @@ body {
 
 .curv-wrapper__listjob--text-cheched {
   padding-top: 12px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .curv-wrapper__listjob--text-cheched .checked--item .flex--item {
@@ -291,5 +347,14 @@ body {
 
 .con-vs-slider {
   min-width: unset !important;
+}
+
+.flex--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

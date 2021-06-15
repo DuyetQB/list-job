@@ -29,6 +29,7 @@ body {
     }
 
     &__item {
+        width: 50%;
 
         .text--search {
             font-size: 14px;
@@ -71,11 +72,27 @@ body {
     &__item2 {
         padding-left: 20.5px;
         padding-right: 8px;
+
+        & .space--search {
+            justify-content: space-between;
+        }
     }
 }
 
 .curv-wrapper {
     padding-top: 32px;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+    & .left--side {
+        flex: 30%;
+    }
+
+    & .right--side {
+        flex: 70%;
+    }
 
     &__item {
 
@@ -151,11 +168,24 @@ body {
             & .slide--range {
                 padding-top: 20px;
                 padding-bottom: 16px;
+                width: 90%;
+
+
             }
 
             & .checkbox--price {
                 color: #17A9B5;
             }
+
+        }
+
+        &--checkbox.wrap--money {
+            justify-content: space-around;
+            display: flex;
+        }
+
+        &--joblist--tab {
+            flex: 1;
         }
     }
 
@@ -213,6 +243,8 @@ body {
         }
 
         &--text {
+            width: 100%;
+            display: flex;
 
             & p {
                 font-size: 14px;
@@ -221,11 +253,12 @@ body {
 
             &-detail {
                 padding-left: 16px;
-                & .text--title{
+
+                & .text--title {
                     text-decoration: none;
                     font-size: 20px;
                     line-height: 28px;
-                    color:#353535;
+                    color: #353535;
                     font-weight: 700;
                 }
 
@@ -234,7 +267,7 @@ body {
 
                 }
 
-                
+
 
                 & h2 {
                     font-size: 20px;
@@ -264,6 +297,7 @@ body {
 
             &-cheched {
                 padding-top: 12px;
+                justify-content: space-between;
 
                 & .checked--item {
 
@@ -319,4 +353,9 @@ body {
 
 .con-vs-slider {
     min-width: unset !important;
+}
+
+.flex--item {
+    display: flex;
+    align-items: center;
 }
