@@ -253,6 +253,10 @@ body {
   padding-left: 16px;
 }
 
+.curv-wrapper__listjob--text-detail .icon--heart {
+  cursor: pointer;
+}
+
 .curv-wrapper__listjob--text-detail .text--title {
   text-decoration: none;
   font-size: 20px;

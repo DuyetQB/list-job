@@ -254,6 +254,10 @@ body {
             &-detail {
                 padding-left: 16px;
 
+                & .icon--heart {
+                    cursor: pointer;
+                }
+
                 & .text--title {
                     text-decoration: none;
                     font-size: 20px;
