@@ -245,6 +245,10 @@ body {
         &--text {
             width: 100%;
             display: flex;
+            & .flex--item {
+                display: flex;
+                align-items: center;
+            }
 
             & p {
                 font-size: 14px;

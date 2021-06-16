@@ -244,6 +244,15 @@ body {
   display: flex;
 }
 
+.curv-wrapper__listjob--text .flex--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .curv-wrapper__listjob--text p {
   font-size: 14px;
   line-height: 24px;
