@@ -37,6 +37,7 @@ body {
 
 .curv-search__item--icon {
   margin-right: 13.69px;
+  cursor: pointer;
 }
 
 .curv-search__item--input {
