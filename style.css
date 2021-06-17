@@ -253,6 +253,12 @@ body {
           align-items: center;
 }
 
+@media (max-width: 780px) {
+  .curv-wrapper__listjob--text .flex--item {
+    width: 100%;
+  }
+}
+
 .curv-wrapper__listjob--text p {
   font-size: 14px;
   line-height: 24px;

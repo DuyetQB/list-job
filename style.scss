@@ -248,6 +248,9 @@ body {
             & .flex--item {
                 display: flex;
                 align-items: center;
+                @include mobile{
+                    width:100%;
+                }
             }
 
             & p {
