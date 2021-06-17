@@ -41,13 +41,9 @@ body {
 
 .curv-search__item--input {
   padding: 0.6rem !important;
+  width: 100%;
+  border: none;
   line-height: 20px;
-}
-
-.curv-search__item--input .vs-input--input {
-  border: none !important;
-  outline: none !important;
-  padding: 0.6rem !important;
 }
 
 .curv-search__item--text-location {

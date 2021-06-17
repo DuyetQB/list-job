@@ -43,14 +43,11 @@ body {
         &--input {
 
             padding: 0.6rem !important;
-
+            width: 100%;
+            border: none;
             line-height: 20px;
 
-            & .vs-input--input {
-                border: none !important;
-                outline: none !important;
-                padding: 0.6rem !important;
-            }
+           
         }
 
         &--text-location {
