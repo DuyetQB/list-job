@@ -214,6 +214,7 @@ body {
 
 .curv-wrapper__filter--item2 {
   text-align: end;
+  position: relative;
 }
 
 .curv-wrapper__listjob {
@@ -362,6 +363,34 @@ body {
 
 .curv-wrapper__listjob .text--introduce {
   margin-top: 16px;
+}
+
+.curv-wrapper__non--listjob {
+  background: #fff;
+  padding: 16px 18px 16px 16px;
+  border-radius: 4px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.curv-wrapper__non--listjob--wrapimage {
+  width: 100%;
+}
+
+.curv-wrapper__non--listjob--wraptext .text--sorry {
+  margin-top: 12px;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.curv-wrapper__non--listjob--wraptext p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 12px;
+  color: #B1B1B1;
 }
 
 .con-vs-slider {

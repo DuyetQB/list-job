@@ -135,12 +135,17 @@
                     </div>
 
                     <div class="curv-wrapper__filter--item curv-wrapper__filter--item2">
-                        <span class="curv-wrapper__filter--item-detail detail--sort">Sort by</span>
-                        <span class="curv-wrapper__filter--item-newest detail--sort">Newest Post</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none">
-                            <path d="M5 5L9 1L1 1L5 5Z" fill="#353535" stroke="#353535" stroke-width="1.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+
+                        
+                            <span class="curv-wrapper__filter--item-detail detail--sort">Sort by</span>
+                           
+                            <span class="curv-wrapper__filter--item-newest detail--sort">Newest Post</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6"
+                                fill="none">
+                                <path d="M5 5L9 1L1 1L5 5Z" fill="#353535" stroke="#353535" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                           
 
                     </div>
 
@@ -233,7 +238,19 @@
                             </div>
                         </vs-row>
                     </vs-row>
-                    </vs-row>
+                </vs-row>
+
+                 <vs-row class="curv-wrapper__non--listjob ">
+                    <div class="curv-wrapper__non--listjob--wrapimage">
+                        <img src="assets/image-no-joblist.png" alt="">
+                    </div>
+                    <div class="curv-wrapper__non--listjob--wraptext">
+                      <h3 class="text--sorry">Sorry</h3>
+                      <p >No jobs avaible at the moment. Please adjust your search.</p>
+                    </div>
+                    
+                 </vs-row>
+
             </div>
 
         </vs-row>
@@ -261,6 +278,7 @@
     <script>
         Vue.use(vsSlider);
         Vue.use(vsIcon);
+        Vue.use(vsDropDown);
         export default {
             data() {
                 return {
