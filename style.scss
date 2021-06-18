@@ -31,6 +31,11 @@ body {
     &__item {
         width: 50%;
 
+        & .flex--item {
+            display: flex;
+            align-items: center;
+        }
+
         .text--search {
             font-size: 14px;
 
@@ -48,7 +53,7 @@ body {
             border: none;
             line-height: 20px;
 
-           
+
         }
 
         &--text-location {
@@ -90,6 +95,11 @@ body {
 
     & .right--side {
         flex: 70%;
+
+        & .flex--item {
+            display: flex;
+            align-items: center;
+        }
     }
 
     &__item {
@@ -217,7 +227,7 @@ body {
         &--item2 {
             text-align: end;
             position: relative;
-           
+
 
         }
 
@@ -245,11 +255,13 @@ body {
         &--text {
             width: 100%;
             display: flex;
+
             & .flex--item {
                 display: flex;
                 align-items: center;
-                @include mobile{
-                    width:100%;
+
+                @include mobile {
+                    width: 100%;
                 }
             }
 
@@ -359,42 +371,41 @@ body {
 
 
     }
-    &__non--listjob{
+
+    &__non--listjob {
         background: #fff;
         padding: 16px 18px 16px 16px;
         border-radius: 4px;
         justify-content: center;
         text-align: center;
         margin-top: 16px;
-        &--wrapimage{
-            width:100%;
-          
-            
-        }
-        &--wraptext{
 
-            & .text--sorry{
+        &--wrapimage {
+            width: 100%;
+
+
+        }
+
+        &--wraptext {
+
+            & .text--sorry {
                 margin-top: 12px;
                 font-size: 20px;
                 line-height: 22px;
             }
-            & p{
+
+            & p {
                 font-size: 14px;
                 line-height: 24px;
                 margin-top: 12px;
-                color:#B1B1B1;
+                color: #B1B1B1;
             }
         }
     }
 
 }
- 
+
 
 .con-vs-slider {
     min-width: unset !important;
-}
-
-.flex--item {
-    display: flex;
-    align-items: center;
 }
